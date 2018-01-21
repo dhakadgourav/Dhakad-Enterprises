@@ -1,0 +1,24 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dhakad Electrical</title>
+	<link rel="stylesheet" href="{% static 'css/blog.css' %}">
+	<link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+</head>
+<body>
+<p> Hurry up!!! last date for offers</p>
+<p>dgfhbjn</p>
+{% for post in posts %}
+<div>
+<p>Published date:: {{post.published_date}}</p>
+
+<a href="#">{{post.title}}</a>
+<p>{{post.text|linebreaksbr}}</p>
+	
+</div>
+
+{% endfor %}
+
+</body>
+</html>
