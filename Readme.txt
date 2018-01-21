@@ -1,0 +1,1 @@
+Requirement: It's a php based shopping website, so you should know some basics of PHP.
